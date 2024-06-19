@@ -1,6 +1,9 @@
 # A modified version of Derange2 (DERANGE II) used in the HapHiC study
 
+## Modification
+
 > The original version of Derange2: ftp://ftp.ebi.ac.uk/pub/software/unix/derange2.tar.Z
+
 > Citation: Blanchette, M., Kunisawa, T. & Sankoff, D. Parametric genome rearrangement. Gene 172, GC11-GC17 (1996).
 
 Modification: `MAX_LENGTH` in `transpo.h` was set to 5000 to support more contigs.
@@ -15,8 +18,14 @@ Modification: `MAX_LENGTH` in `transpo.h` was set to 5000 to support more contig
 ```
 Documentation about Derange2
 
-By Mathieu Blanchette (e-mail : blanchet@hans.crm.umontreal.ca)
-directed by David Sankoff.
+********************************************************************************
+***                                                                          ***
+***                        Documentation about Derange2                      ***
+***                                                                          ***
+***   By Mathieu Blanchette (e-mail : blanchet@hans.crm.umontreal.ca)        ***
+***   directed by David Sankoff.                                             ***
+***                                                                          ***
+********************************************************************************
 
 General informations :
 
