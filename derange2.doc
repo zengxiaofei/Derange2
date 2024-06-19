@@ -1,22 +1,11 @@
-# A modified version of Derange2 (DERANGE II) used in the HapHiC study
-
-> The original version of Derange2: ftp://ftp.ebi.ac.uk/pub/software/unix/derange2.tar.Z
-> Citation: Blanchette, M., Kunisawa, T. & Sankoff, D. Parametric genome rearrangement. Gene 172, GC11-GC17 (1996).
-
-Modification: `MAX_LENGTH` in `transpo.h` was set to 5000 to support more contigs.
-
-## HapHiC
-
-> Xiaofei Zeng, Zili Yi, Xingtan Zhang, Yuhui Du, Yu Li, Zhiqing Zhou, Sijie Chen, Huijie Zhao, Sai Yang, Yibin Wang, Guoan Chen. (2023) Chromosome-level scaffolding of haplotype-resolved assemblies using Hi-C data without reference genomes. *bioRxiv*, 2023.11.18.567668.
-> doi: [https://doi.org/10.1101/2023.11.18.567668](https://doi.org/10.1101/2023.11.18.567668)
-
-## Documentation
-
-```
-Documentation about Derange2
-
-By Mathieu Blanchette (e-mail : blanchet@hans.crm.umontreal.ca)
-directed by David Sankoff.
+********************************************************************************
+***                                                                          ***
+***                        Documentation about Derange2                      ***
+***                                                                          ***
+***   By Mathieu Blanchette (e-mail : blanchet@hans.crm.umontreal.ca)        ***
+***   directed by David Sankoff.                                             ***
+***                                                                          ***
+********************************************************************************
 
 General informations :
 
@@ -69,14 +58,16 @@ Derange2 generates a file containing its results. This file contains:
 - A resume of the permutation solved and of the parameters used.
 - The list of moves sorting the permutation:
   inverted segments are shown between [  ]
-  transposed segments are shown between ( ) and insert at @
-  inverted-transposed segments are shown between < > and are insert at @
+  transposed segments are shown between ( ) and insert at *
+  inverted-transposed segments are shown between < > and are insert at *
 - A resume of the total number of moves and of the number of moves of each
   kind.
+
 
 IMPORTANT : Derange2 is an EXPERIMENTAL program which may still contain a few bugs.
             The authors don't any responsibility about the results (correct or not)
             it may give or about eventual corrections that may be needed.
             However, feel free to contact the authors if you have questions
             or comments about Derange2.
-```
+
+
